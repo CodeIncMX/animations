@@ -1,0 +1,27 @@
+@import './tokens';
+
+%fx {
+  animation-duration: $general__animationDuration;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+.afx {
+  @extend %fx;
+  &--fast {
+    animation-duration: $general__animationDuration--fast;
+  }
+  &--slow {
+    animation-duration: $general__animationDuration--slow;
+  }
+
+  &--delay {
+    animation-delay: $general__animationDelay;
+
+    @for $times from 2 to 11 {
+      &--x#{$times} {
+        animation-delay: $general__animationDelay * $times;
+      }
+    }
+  }
+}

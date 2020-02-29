@@ -1,0 +1,25 @@
+@import './effects';
+
+.fadeOut { @extend %fx; animation-name: fadeOut; }
+.fadeInUp { @extend %fx; animation-name: fadeInUp; }
+
+// KEYFRAMES
+@keyframes fadeOut {
+  from { 
+    opacity: 1;
+  }
+  to { 
+    opacity: 0; 
+  }
+}
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    padding-top: 10px;
+  }
+  to { 
+    padding-top: 0px;
+    opacity: 1; 
+  }
+}
