@@ -1,5 +1,20 @@
+// @import '../scss/animations.scss';
+
+// .fadeInUp {
+//   opacity: 0;
+// }
+
 @import '../scss/animations.scss';
 
-.fadeInUp {
-  opacity: 0;
+h1 {
+
+  // @include animate(fadeOut) {
+  //   animation-delay: 0.5s;
+  // }
+
+  @include animate() {
+    opacity: 0;
+    animation-delay: 0.5s;
+  }
+
 }

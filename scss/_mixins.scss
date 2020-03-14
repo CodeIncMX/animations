@@ -1,0 +1,11 @@
+@import './effects';
+@import './fades';
+
+@mixin animate(
+  $animation__name: fadeIn
+){
+  @extend %fx;
+  animation-name: $animation__name;
+
+  @content;
+}
