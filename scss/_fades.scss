@@ -1,9 +1,9 @@
 @import './effects';
 
-.fadeOut { @extend %fx; animation-name: fadeOut; }
-.fadeIn { @extend %fx; animation-name: fadeIn; }
+// .fadeOut { @extend %fx; animation-name: fadeOut; }
+// .fadeIn { @extend %fx; animation-name: fadeIn; }
 
-.fadeInUp { @extend %fx; animation-name: fadeInUp; }
+// .fadeInUp { @extend %fx; animation-name: fadeInUp; }
 
 // KEYFRAMES
 @keyframes fadeOut {

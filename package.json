@@ -1,6 +1,6 @@
 {
   "name": "@codeinc.mx/animations",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A custom animation sass implementation",
   "main": "scss/animations.scss",
   "directories": {

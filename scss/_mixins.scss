@@ -1,6 +1,3 @@
-@import './effects';
-@import './fades';
-
 @mixin animate(
   $animation__name: fadeIn
 ){
